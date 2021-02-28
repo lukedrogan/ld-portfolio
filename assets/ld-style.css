@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: var(--primary);
+    color: black;
     background-color: var(--light);
     line-height: 1.5;
   }
@@ -74,7 +74,7 @@ body {
   }
   
   .header-banner {
-    background-image: url("../assets/images/02-hero-bg.jpg");
+    background-image: url("../assets/images/01-header.jpg");
     background-color: rgba(146, 204, 206, 0.4);
     background-size: cover;
     background-position: center;
@@ -94,16 +94,16 @@ body {
   
   .header-banner h2 {
     background-color: var(--secondary);
-    color: var(--tertiary);
+    color: white;
     margin: 0;
-    padding: 5px 10px;
-    font-size: 2.3rem;
+    padding: 10px 10px;
+    font-size: 2rem;
     line-height: 1.2;
     display: inline;
   }
   
   .page-wrap {
-    max-width: 88%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -145,8 +145,8 @@ body {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 250px;
+    max-height: 250px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
@@ -161,7 +161,7 @@ body {
   
   /* feature first portfolio item */
   .flex-item:first-child {
-      min-height: 400px;
+      min-height: 450px;
       flex-basis: 100%;
   }
   
@@ -171,11 +171,11 @@ body {
   
   .flex-item div {
     background-color: var(--secondary);
-    padding: 8px 10px;
+    padding: 10px 5px;
   }
   
   .flex-item h3 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   
   .contact address {
@@ -207,24 +207,25 @@ body {
   }
   
   /* portfolio project images */
-  .TBC2 {
-    background-image: url("../images/02-run-buddy.jpg");
-  }
   
+  .swd {
+    background-image: url("../assets/images/SWD-screen.png");
+  }
+
   .boxd {
-    background-image: url("../images/02-portfolio-1.jpg");
+    background-image: url("../assets/images/BOXD-screen.png");
   }
   
   .lightboxd {
-    background-image: url("../images/02-portfolio-2.jpg");
+    background-image: url("../assets/images/Lightboxd-screen.png");
   }
-  
+
   .TBC1 {
-    background-image: url("..assets/images/02-portfolio-3.jpg");
+    background-image: url("../assets/images/TBC1.png");
   }
-  
-  .swd {
-    background-image: url("../assets/images/SWD_Screen.png");
+
+  .TBC2 {
+    background-image: url("../assets/images/TBC2.png");
   }
   
   /* end portfolio project images */
